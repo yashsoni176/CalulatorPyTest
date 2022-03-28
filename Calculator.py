@@ -11,8 +11,8 @@ def div(x,y):
     return x/y
 
 if __name__ == "__main__":
-    num1 = float(input("ENTER NUM1: "))
-    num2 = float(input("ENTER NUM2: "))
+    num1 = float(input("Enter a : "))
+    num2 = float(input("ENTER b : "))
     result1 = add(num1, num2)
     print(result1)
     result2 = sub(num1, num2)
