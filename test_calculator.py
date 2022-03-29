@@ -5,7 +5,7 @@ import pytest
 @pytest.mark.parametrize("a,b,c",[(3,2,5),(4,6,11),(7,8,16),(10,12,22)])
 def test_add(a,b,c):
     result = Calculator.add(a,b)
-    assert c == result
+    assert not c == result
 
 @pytest.mark.parametrize("a,b,c",[(3,2,1),(4,6,-2),(7,8,-1),(10,12,-2)])
 def test_sub(a,b,c):
