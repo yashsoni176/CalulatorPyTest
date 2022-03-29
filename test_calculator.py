@@ -2,7 +2,7 @@ import Calculator
 import pytest
 
 @pytest.mark.xfail
-@pytest.mark.parametrize("a,b,c",[(3,2,5),(4,6,10),(7,8,15),(10,12,22)])
+@pytest.mark.parametrize("a,b,c",[(3,2,5),(4,6,11),(7,8,16),(10,12,22)])
 def test_add(a,b,c):
     result = Calculator.add(a,b)
     assert c == result
